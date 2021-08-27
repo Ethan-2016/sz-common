@@ -1,7 +1,8 @@
 {
-  "name": "yijian.portal",
-  "version": "0.1.0",
-  "private": true,
+  "name": "sz_common",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
   "scripts": {
     "local": "vue-cli-service serve --mode local",
     "serve": "vue-cli-service serve",
@@ -73,6 +74,7 @@
     "zrender": "4.1.2"
   },
   "devDependencies": {
+    "lerna": "^4.0.0",
     "@vue/cli-plugin-babel": "~4.4.0",
     "@vue/cli-plugin-eslint": "~4.4.0",
     "@vue/cli-service": "~4.4.0",
